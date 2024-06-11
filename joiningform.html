@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+    <title>Application Form</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+</head>
+<link rel="stylesheet" href="css/urembo.css">
+<link href="img/favicon.png" rel="shortcut icon">
+<body>
+
+<div class="myform">
+    <h2>Application Form</h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="fname">
+            <input type="hidden" name="access_key" value="8622af7b-5615-47b7-b21b-eb11316f06f0">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" required placeholder="Enter First Name"><br><br>
+        </div>
+        <div class="lname">
+             <label for="lname">Surname:</label>
+            <input type="text" id="lname" required placeholder="Enter Surname"><br><br>
+        </div>
+        <div class="mname">
+            <label for="mname">Middle Name:</label>
+            <input type="text" id="mname" required placeholder="Enter Middle Name"><br><br>
+        </div>
+        <div class="id">
+            <label for="id">ID No:</label>
+            <input type="text" id="id" required placeholder="Enter Identification Number"><br><br>
+        </div>
+        <div class="barua">
+            <label for="barua">Email Address:</label>
+            <input type="email" id="barua" required placeholder="Enter Email Address"><br><br>
+        </div>
+        <div class="pno">
+            <label for="pno">Phone Number:</label>
+            <input type="text" id="pno" required placeholder="Enter Phone Number"><br><br>
+        </div>
+        <div class="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female"name="gender">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender"><br><br>
+         </div>
+        <div class="field">
+             <label for="field">Interest</label>
+            <select name="Course" id="Course">
+            <option value="HVAC Technician">HVAC Technician</option>
+            <option value="Electrical Technicia">Electrical Technician</option>
+            <option value="Plumbers">Plumbers</option>
+            <option value="Civil Multi Techician(Mason)">Civil Multi Techician(Mason)</option>
+            <option value="Civil Multi Techician(Painter)">Civil Multi Techician(Painter)</option>
+                <option value="MEP Technician">MEP Technician</option>
+                <option value="Assistant Tecnician">Assistant Tecnician(HVAC)</option>
+                <option value="Assistant Tecnician(Electrical)">Assistant Tecnician(Electrical)</option>
+             </select><br><br>
+        </div>
+        <div class="pic">
+            <label for="pic">Upload CV</label>
+            <input type="file" id="pic"><br><br>
+        </div>
+        <div class="dob">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" required placeholder="Enter DOB"><br><br>
+        </div>
+        <div class="pass">
+             <label for="pass">Password:</label>
+            <input type="password" id="pass" required placeholder="Enter Password"><br><br>
+            <label for="pass">Confirm Password:</label>
+            <input type="password" id="pass" required placeholder="Repeat Password"><br><br>
+        </div>
+        <div class="checkbox">
+            <label>
+            <input type="checkbox" id="checkbox">I hereby declare that the above information provided is true and correct.
+        </label><br><br>
+        </div>
+        <div class="register">
+            <input type="submit" value="Register">
+        </div>
+
+
+
+    </form>
+</div>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
